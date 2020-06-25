@@ -75,7 +75,7 @@ services:
         ports:
            - "443:443"
            - "8050:80"
-           - "22:22"
+           - "2222:22"
         volumes:
           - ~/Projects/gitlab/config:/etc/gitlab
           - ~/Projects/gitlab/logs:/var/log/gitlab
@@ -195,7 +195,7 @@ import unittest
 import mail
 class MailTest(unittest.TestCase):
   def test_should_return_true_when_email_is_valid(self):
-      self.assertTrue(mail.is_valid('iam@gustavohenrique.net'))
+      self.assertTrue(mail.is_valid('daniel.lemes@alumni.usp.br'))
   def test_should_return_false_when_email_is_invalid(self):
       self.assertFalse(mail.is_valid('xxxxx'))
 if __name__ == '__main__':
