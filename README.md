@@ -76,10 +76,10 @@ services:
            - "443:443"
            - "8050:80"
            - "2222:22"
-        volumes:
-          - ~/Projects/gitlab/config:/etc/gitlab
-          - ~/Projects/gitlab/logs:/var/log/gitlab
-          - ~/Projects/gitlab/data:/var/opt/gitlab
+        # volumes:
+        #  - ~/Projects/gitlab/config:/etc/gitlab
+        #  - ~/Projects/gitlab/logs:/var/log/gitlab
+        #  - ~/Projects/gitlab/data:/var/opt/gitlab
 ```
 
 
