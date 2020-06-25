@@ -202,7 +202,7 @@ if __name__ == '__main__':
   unittest.main()
 ```
 
-Criando access token no gitlab
+Instalando plugin do gitlab no jenkins
 ------------------------------
 
 > Vamos precisar do [[GitLab
